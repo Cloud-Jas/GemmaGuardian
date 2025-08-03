@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SecurityMonitor" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <!-- No action bar theme for splash and intro -->
+    <style name="Theme.SecurityMonitor.NoActionBar" parent="Theme.SecurityMonitor">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- Splash screen theme -->
+    <style name="Theme.SecurityMonitor.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/md_theme_light_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.SecurityMonitor</item>
+    </style>
+</resources>

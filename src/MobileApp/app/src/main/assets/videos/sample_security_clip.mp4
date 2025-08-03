@@ -1,0 +1,29 @@
+# Download Test Video Instructions
+
+## Option 1: Use Your Own Video
+Place your 1-minute security footage video here and rename it to: sample_security_clip.mp4
+
+## Option 2: Download Sample Video
+You can download a sample video for testing:
+
+### Using PowerShell:
+```powershell
+# Navigate to the videos directory
+cd "C:\Src\github\GemmaGuardian\src\MobileApp\app\src\main\assets\videos"
+
+# Download a sample video (Big Buck Bunny - first 60 seconds)
+Invoke-WebRequest -Uri "https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" -OutFile "sample_security_clip.mp4"
+```
+
+### Alternative Test Videos:
+- https://file-examples.com/storage/fe86c7e5c66d4d93d32411f/2017/10/file_example_MP4_1280_10MG.mp4
+- https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
+
+## Requirements:
+- Format: MP4 (recommended)
+- Duration: Any length (player will handle it)
+- Resolution: Any (1920x1080 recommended)
+- Size: Keep under 10MB for smooth loading
+
+## File Location:
+This file should be replaced with an actual MP4 video file for the video player to work properly.
