@@ -3,7 +3,6 @@
 # ========================================
 
 # Built application files
-*.apk
 *.aab
 
 # Files for the ART/Dalvik VM

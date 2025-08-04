@@ -174,6 +174,7 @@ sudo ufw reload
 ### 🔌 Integration & Development
 - **📡 [API Reference](docs/API_REFERENCE.md)** - Complete REST API documentation
 - **📱 [Mobile App Setup](src/MobileApp/README.md)** - Android companion app guide
+- **📲 [Android APK Download](docs/gemmaguardian.apk)** - Pre-built mobile app for instant installation
 
 ### ⚡ Quick Actions
 
@@ -199,6 +200,9 @@ Professional Android companion app with enterprise-grade features:
 - **📊 Analysis History**: Browse and search security events
 - **⚙️ Remote Control**: Configure system from anywhere
 - **🚨 Emergency Alerts**: Critical threat escalation
+
+### 📲 Quick Install
+**Ready-to-install APK**: Download the pre-built Android app directly from [`docs/gemmaguardian.apk`](docs/gemmaguardian.apk)
 
 📱 **Mobile App Setup**: [src/MobileApp/README.md](src/MobileApp/README.md)
 
