@@ -80,6 +80,38 @@ graph TD
         AI2 --> AI3
     end
 ```
+### **Mobile Application Integration**
+
+**Professional Android companion with local network connectivity:**
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27622499%2F53d8f0871943b494062a2a58be023b09%2FScreenshot_20250804-010917-left.png?generation=1754300414426811&alt=media" width="250" alt="Home Screen"/>
+        <br><b>📱 Home Dashboard</b>
+      </td>
+      <td align="center">
+        <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27622499%2F1f9474803a98a98e4b667a05bc3be0dd%2FScreenshot_20250804-011008-right.png?generation=1754250759952026&alt=media" width="250" alt="Live Feed"/>
+        <br><b>📹 Video Feed</b>
+      </td>
+      <td align="center">
+        <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27622499%2F6909c3e2434c02fef7b7562c56aa8ea7%2FScreenshot_20250804-010924-right.png?generation=1754250716305821&alt=media" width="250" alt="Alerts"/>
+        <br><b>🚨 Alert Management</b>
+      </td>
+      <td align="center">
+        <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27622499%2Fab589e928a3dfe81fc695f23793d85bc%2FScreenshot_20250804-010950-right.png?generation=1754250801367655&alt=media" width="250" alt="Alerts"/>
+        <br><b>🔒 Technical Details</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Key Features:**
+- **📱 Real-time RTSP Streaming**: Direct camera feed access within LAN
+- **🔔 UDP Broadcast Alerts**: Instant notifications via local network
+- **📊 AI Analysis Dashboard**: Historical threat assessments and statistics
+- **⚙️ Remote Configuration**: System settings via local API calls
 
 ## 🚀 Quick Start
 
