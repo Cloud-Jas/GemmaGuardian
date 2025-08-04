@@ -211,34 +211,6 @@ cd src/SurveillanceAgent
 .\setup_firewall.ps1
 ```
 
-### 🌐 Network Configuration
-
-**Manual Firewall Rules** (if not using automated script):
-```powershell
-# Windows PowerShell (Run as Administrator)
-New-NetFirewallRule -DisplayName "GemmaGuardian API" -Direction Inbound -Protocol TCP -LocalPort 8888 -Action Allow
-New-NetFirewallRule -DisplayName "RTSP Cameras" -Direction Inbound -Protocol TCP -LocalPort 554 -Action Allow
-```
-
-**Camera RTSP URLs**:
-```bash
-# Generic format
-rtsp://username:password@camera-ip:554/stream
-
-# Common examples
-rtsp://admin:password@192.168.1.100:554/h264_stream     # Generic IP camera
-rtsp://admin:password@192.168.1.100:554/cam/realmonitor # Dahua
-rtsp://admin:password@192.168.1.100:554/Streaming/Channels/101  # Hikvision
-```
-
-**Environment Configuration** (`.env` file - created automatically by setup.py):
-```bash
-RTSP_URL=rtsp://admin:password@192.168.1.100:554/stream
-AI_MODE=transformer  # or 'ollama'
-DETECTION_CONFIDENCE_THRESHOLD=0.5
-LOG_LEVEL=INFO
-```
-
 📋 **Complete Configuration Guide**: [docs/SETUP_GUIDE.md](docs/SETUP_GUIDE.md)
 
 ## 🧪 Testing & Validation
