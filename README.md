@@ -51,7 +51,7 @@ graph TD
     H --> J[🔥 Transformer Mode]
     
     I --> I1[📡 Send to Ollama Server]
-    I1 --> I2[🎯 Gemma 2 2B Vision Analysis]
+    I1 --> I2[🎯 Gemma 3 4b Vision Analysis]
     I2 --> I3[📝 Gemma 3n e2b Consolidation]
     I3 --> K[🛡️ Security Assessment]
     
