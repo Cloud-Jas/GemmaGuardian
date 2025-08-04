@@ -237,6 +237,25 @@ cd GemmaGuardian
 python setup.py  # Handles everything automatically
 ```
 
+### **Firewall Configuration**
+**Important**: GemmaGuardian requires specific firewall rules for optimal operation:
+
+```powershell
+# Windows (Run as Administrator)
+.\setup_firewall.ps1  # Automated firewall setup script included
+
+# Manual Windows Firewall Rules:
+# Allow UDP broadcast (port 37020) for mobile notifications
+# Allow TCP inbound (port 8888) for REST API server
+```
+
+```bash
+# Linux/Ubuntu
+sudo ufw allow 37020/udp    # UDP broadcast notifications
+sudo ufw allow 8888/tcp     # REST API server
+sudo ufw reload
+```
+
 ### **System Requirements**
 - **Minimum**: Python 3.8+, 4GB RAM, any RTSP camera
 - **Recommended**: 8GB+ RAM, GPU with 4GB+ VRAM, Ollama installed

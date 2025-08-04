@@ -136,6 +136,25 @@ python setup.py
 
 > **💡 Pro Tip**: The setup script includes intelligent error handling, GPU detection, and guided configuration - making professional surveillance setup accessible to everyone.
 
+### 🔥 Important: Firewall Configuration
+
+**GemmaGuardian requires specific network ports for mobile connectivity:**
+
+```powershell
+# Windows (Run as Administrator) - Automated Setup
+cd src/SurveillanceAgent
+.\setup_firewall.ps1
+```
+
+```bash
+# Linux/Ubuntu - Manual Setup
+sudo ufw allow 37020/udp    # UDP broadcast notifications  
+sudo ufw allow 8888/tcp     # REST API server
+sudo ufw reload
+```
+
+> **⚠️ Critical**: Without proper firewall configuration, the mobile app won't receive notifications or connect to the surveillance system.
+
 📖 **Detailed Setup Guide**: [docs/SETUP_GUIDE.md](docs/SETUP_GUIDE.md)
 
 ### System Requirements
